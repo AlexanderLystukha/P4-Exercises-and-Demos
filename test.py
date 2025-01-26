@@ -17,12 +17,6 @@ a.sort()
 
 print(a)
 
-#exercise
-
-l = ["A", "B", "C", "D", "E", "F"]
-
-for t in
-
 #################
 
 l = [1, 2, 3, 4]
