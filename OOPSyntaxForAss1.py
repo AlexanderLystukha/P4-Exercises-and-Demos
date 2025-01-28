@@ -12,11 +12,13 @@ class Foo:
         self.b = b
 
     def __str__(self):
+        print("hi")
         # this method allows for variables to actually output the variable data
         # if you don't it just choose gibberish (method name, memory location, etc)
         # this is what will be outputted to the console or whatever you're outputting too
 
     def __repr__(self):
+        print("bye")
         # this is what will be used by the IDE when debugging and such
     def method(self):
         return self.a + self.b
